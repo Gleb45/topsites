@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(to top,lightblue,rgb(130, 130, 236),cyan) ;
+}
+
+.a:hover{
+color: whitesmoke;
+transition:1s ease-in;
+}
+
+
+
+
+.a__text{
+color:#000 ;
+background:linear-gradient(to right,#2618B1,#594CD8,blue) ;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+transition:1s ease-in;
+}
+
+
+.b:hover{
+color: whitesmoke;
+transition:1s ease-in;
+}
+
+.b__text{
+color:#000 ;
+background:linear-gradient(to right,cyan,rgb(40, 154, 192),blue) ;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+transition:1s ease-in;
+}
+
+.c:hover{
+color: whitesmoke;
+transform-style: ;
+transition:1s ease-in;
+}
+
+.c__text{
+color:#000 ;
+background:linear-gradient(to right,cyan,rgba(28, 109, 136, 0.534),blue) ;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+transition:1s ease-in;
+}
+
+.d:hover{
+color: whitesmoke;
+transition:1s ease-in;
+}
+
+.d__text{
+color:#000 ;
+background:linear-gradient(to right,blue,rgb(40, 154, 192),cyan) ;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+transition:1s ease-in;
+}
+
+img{
+width:30x;
+height:30px ;    
+opacity:0 ;
+}
+
+
+img:hover{
+opacity: 1;
+transition:1s linear;
+}
+
+.link nav{
+text-align: left;    
+} 
